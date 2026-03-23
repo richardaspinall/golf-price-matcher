@@ -1,0 +1,184 @@
+window.__PRICE_MATCHER_DATA__ = {
+  "built_at": "2026-03-23T23:54:04.070775+00:00",
+  "sources": {
+    "drummond": {
+      "url": "https://drummondgolf.com.au/collections/balls-gloves-mens-gloves",
+      "fetched_at": "2026-03-23T23:47:12.145260+00:00",
+      "product_count": 44
+    },
+    "golfbox": {
+      "url": "https://www.golfbox.com.au/golf-gloves/",
+      "fetched_at": "2026-03-23T23:53:52.727946+00:00",
+      "product_count": 20
+    }
+  },
+  "summary": {
+    "matched_products": 5,
+    "drummond_cheaper": 1,
+    "golfbox_cheaper": 3,
+    "same_price": 0
+  },
+  "matches": [
+    {
+      "label": "Callaway Apex Tour Glove",
+      "vendor": "Callaway",
+      "confidence": "high",
+      "match_score": 1.0,
+      "cheaper_store": "golfbox",
+      "price_delta_cents": 796,
+      "drummond": {
+        "title": "Callaway Apex Tour Glove",
+        "vendor": "Callaway",
+        "handle": "callaway-apex-tour-glove-2",
+        "product_url": "https://drummondgolf.com.au/products/callaway-apex-tour-glove-2",
+        "image_url": "https://drummondgolf.com.au/cdn/shop/files/9aa11933-fb0b-499b-bbe9-1e7182a4508e.jpg?v=1771296439&width=460",
+        "price_text": "$39.95",
+        "price_cents": 3995,
+        "currency": "AUD",
+        "availability": "unknown",
+        "product_id": null
+      },
+      "golfbox": {
+        "title": "Callaway Apex Tour Golf Glove",
+        "vendor": "Callaway",
+        "handle": "callaway-apex-tour-2019-golf-glove-white",
+        "product_url": "https://www.golfbox.com.au/gloves/callaway-apex-tour-2019-golf-glove-white/",
+        "image_url": "https://cdn11.bigcommerce.com/s-hiuea1t2mw/images/stencil/500x659/products/20966/47866/glove-apex%20tour%2019%20whi1__31907.1706538873.jpg?c=2",
+        "price_text": "$31.99",
+        "price_cents": 3199,
+        "currency": "AUD",
+        "availability": "available",
+        "product_id": 20966
+      }
+    },
+    {
+      "label": "Callaway Weather Spann  Glove",
+      "vendor": "Callaway",
+      "confidence": "high",
+      "match_score": 1.0,
+      "cheaper_store": "golfbox",
+      "price_delta_cents": 536,
+      "drummond": {
+        "title": "Callaway All Weather Spann Glove",
+        "vendor": "Callaway",
+        "handle": "callaway-all-weather-spann-glove-1",
+        "product_url": "https://drummondgolf.com.au/products/callaway-all-weather-spann-glove-1",
+        "image_url": "https://drummondgolf.com.au/cdn/shop/files/a9a30007-0aba-4808-a578-7069c92dff4f.jpg?v=1771296554&width=460",
+        "price_text": "$26.95",
+        "price_cents": 2695,
+        "currency": "AUD",
+        "availability": "unknown",
+        "product_id": null
+      },
+      "golfbox": {
+        "title": "Callaway Weather Spann Golf Glove",
+        "vendor": "Callaway",
+        "handle": "callaway-weather-spann-golf-glove",
+        "product_url": "https://www.golfbox.com.au/gloves/callaway-weather-spann-golf-glove/",
+        "image_url": "https://cdn11.bigcommerce.com/s-hiuea1t2mw/images/stencil/500x659/products/41804/116149/glove-weather%20spann%2023%20whi__1__19971.1676968180.jpg?c=2",
+        "price_text": "$21.59",
+        "price_cents": 2159,
+        "currency": "AUD",
+        "availability": "available",
+        "product_id": 41804
+      }
+    },
+    {
+      "label": "Taylormade 2026 Stratus Soft Glove",
+      "vendor": "TaylorMade",
+      "confidence": "high",
+      "match_score": 1.0,
+      "cheaper_store": "golfbox",
+      "price_delta_cents": 996,
+      "drummond": {
+        "title": "Taylormade 2026 Stratus Soft Glove",
+        "vendor": "TaylorMade",
+        "handle": "taylormade-2026-stratus-soft-glove",
+        "product_url": "https://drummondgolf.com.au/products/taylormade-2026-stratus-soft-glove",
+        "image_url": "https://drummondgolf.com.au/cdn/shop/files/cfabe64e-ff5e-425c-96a7-5dd19b43a7f5.jpg?v=1771294804&width=460",
+        "price_text": "$29.95",
+        "price_cents": 2995,
+        "currency": "AUD",
+        "availability": "unknown",
+        "product_id": null
+      },
+      "golfbox": {
+        "title": "TaylorMade Stratus Soft Golf Glove - White",
+        "vendor": "TaylorMade",
+        "handle": "taylormade-stratus-soft-golf-glove-white",
+        "product_url": "https://www.golfbox.com.au/gloves/taylormade-stratus-soft-golf-glove-white/",
+        "image_url": "https://cdn11.bigcommerce.com/s-hiuea1t2mw/images/stencil/500x659/products/31925/79785/glove-stratus%20soft%20whi__2__98795.1676968127.jpg?c=2",
+        "price_text": "$19.99",
+        "price_cents": 1999,
+        "currency": "AUD",
+        "availability": "unknown",
+        "product_id": 31925
+      }
+    },
+    {
+      "label": "Titleist Perma Soft Glove",
+      "vendor": "Titleist",
+      "confidence": "high",
+      "match_score": 1.0,
+      "cheaper_store": "unknown",
+      "price_delta_cents": null,
+      "drummond": {
+        "title": "Titleist Perma Soft Glove",
+        "vendor": "Titleist",
+        "handle": "titleist-perma-soft-glove-2",
+        "product_url": "https://drummondgolf.com.au/products/titleist-perma-soft-glove-2",
+        "image_url": "https://drummondgolf.com.au/cdn/shop/files/6597E_01.avif?v=1771294367&width=460",
+        "price_text": null,
+        "price_cents": null,
+        "currency": "AUD",
+        "availability": "unknown",
+        "product_id": null
+      },
+      "golfbox": {
+        "title": "Titleist Perma Soft Golf Glove - White",
+        "vendor": "Titleist",
+        "handle": "titleist-perma-soft-golf-glove-white",
+        "product_url": "https://www.golfbox.com.au/gloves/titleist-perma-soft-golf-glove-white/",
+        "image_url": "https://cdn11.bigcommerce.com/s-hiuea1t2mw/images/stencil/500x659/products/37476/99655/glove-perma%20soft%2019%20whi__1__46496.1667491083.jpg?c=2",
+        "price_text": "$29.59",
+        "price_cents": 2959,
+        "currency": "AUD",
+        "availability": "unknown",
+        "product_id": 37476
+      }
+    },
+    {
+      "label": "Under Armour Iso-Chill Glove",
+      "vendor": "Under Armour",
+      "confidence": "high",
+      "match_score": 1.0,
+      "cheaper_store": "drummond",
+      "price_delta_cents": 4,
+      "drummond": {
+        "title": "Under Armour Iso-Chill Glove",
+        "vendor": "Under Armour",
+        "handle": "under-armour-iso-chill-glove-2",
+        "product_url": "https://drummondgolf.com.au/products/under-armour-iso-chill-glove-2",
+        "image_url": "https://drummondgolf.com.au/cdn/shop/files/men_white_white.webp?v=1770852606&width=460",
+        "price_text": "$29.95",
+        "price_cents": 2995,
+        "currency": "AUD",
+        "availability": "unknown",
+        "product_id": null
+      },
+      "golfbox": {
+        "title": "Under Armour Iso-Chill 22 Golf Glove - White",
+        "vendor": "Under Armour",
+        "handle": "under-armour-iso-chill-22-golf-glove-white",
+        "product_url": "https://www.golfbox.com.au/gloves/under-armour-iso-chill-22-golf-glove-white/",
+        "image_url": "https://cdn11.bigcommerce.com/s-hiuea1t2mw/images/stencil/500x659/products/36936/97724/glove-ua%20iso%20chill%2022%20white__1__11179.1676968586.jpg?c=2",
+        "price_text": "$29.99",
+        "price_cents": 2999,
+        "currency": "AUD",
+        "availability": "available",
+        "product_id": 36936
+      }
+    }
+  ]
+}
+;

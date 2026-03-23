@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Golf Price Matcher Prototype</title>
+    <meta
+      name="description"
+      content="Prototype price comparison view for matching golf gloves across Drummond Golf and GolfBox."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero__copy">
+          <p class="eyebrow">Golf Price Matcher Prototype</p>
+          <h1>Compare matching glove prices across both stores.</h1>
+          <p class="hero__lede">
+            This view pairs likely identical men&apos;s golf gloves from Drummond
+            Golf and GolfBox so you can scan price differences without flipping
+            between sites.
+          </p>
+        </div>
+
+        <div class="hero__panel">
+          <p class="hero__panel-label">Comparison Snapshot</p>
+          <dl class="stats" id="stats">
+            <div class="stat">
+              <dt>Matches</dt>
+              <dd id="stat-matches">0</dd>
+            </div>
+            <div class="stat">
+              <dt>Drummond cheaper</dt>
+              <dd id="stat-drummond-cheaper">0</dd>
+            </div>
+            <div class="stat">
+              <dt>GolfBox cheaper</dt>
+              <dd id="stat-golfbox-cheaper">0</dd>
+            </div>
+          </dl>
+          <p class="hero__timestamp" id="last-updated">Loading comparison...</p>
+        </div>
+      </header>
+
+      <main>
+        <section class="toolbar" aria-label="Filters and sorting">
+          <label class="field">
+            <span>Search</span>
+            <input
+              id="search-input"
+              type="search"
+              placeholder="Search brand or matched glove name"
+            />
+          </label>
+
+          <label class="field">
+            <span>Cheaper at</span>
+            <select id="cheaper-filter">
+              <option value="all">Any store</option>
+              <option value="drummond">Drummond Golf</option>
+              <option value="golfbox">GolfBox</option>
+              <option value="same">Same price</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Sort by</span>
+            <select id="sort-select">
+              <option value="delta-desc">Largest price gap</option>
+              <option value="delta-asc">Smallest price gap</option>
+              <option value="title-asc">Name, A to Z</option>
+              <option value="vendor-asc">Brand, A to Z</option>
+            </select>
+          </label>
+        </section>
+
+        <section class="results-header">
+          <div>
+            <p class="results-header__label">Likely Matches</p>
+            <h2>Price comparison</h2>
+          </div>
+          <p class="results-header__count" id="results-count">0 pairs</p>
+        </section>
+
+        <section
+          class="comparison-grid"
+          id="comparison-grid"
+          aria-live="polite"
+          aria-busy="true"
+        ></section>
+
+        <template id="comparison-card-template">
+          <article class="comparison-card">
+            <div class="comparison-card__header">
+              <div>
+                <p class="comparison-card__vendor"></p>
+                <h3 class="comparison-card__label"></h3>
+              </div>
+              <span class="comparison-card__badge"></span>
+            </div>
+
+            <div class="store-columns">
+              <section class="store-card store-card--drummond">
+                <p class="store-card__eyebrow">Drummond Golf</p>
+                <div class="store-card__media">
+                  <img class="store-card__image store-card__image--drummond" alt="" loading="lazy" />
+                </div>
+                <p class="store-card__title store-card__title--drummond"></p>
+                <p class="store-card__price store-card__price--drummond"></p>
+                <a class="store-card__link store-card__link--drummond" target="_blank" rel="noreferrer">
+                  Open Drummond
+                </a>
+              </section>
+
+              <section class="store-card store-card--golfbox">
+                <p class="store-card__eyebrow">GolfBox</p>
+                <div class="store-card__media">
+                  <img class="store-card__image store-card__image--golfbox" alt="" loading="lazy" />
+                </div>
+                <p class="store-card__title store-card__title--golfbox"></p>
+                <p class="store-card__price store-card__price--golfbox"></p>
+                <a class="store-card__link store-card__link--golfbox" target="_blank" rel="noreferrer">
+                  Open GolfBox
+                </a>
+              </div>
+
+            <p class="comparison-card__note"></p>
+          </article>
+        </template>
+      </main>
+    </div>
+
+    <script src="./data/price-matches.js?v=3"></script>
+    <script src="./app.js?v=3" defer></script>
+  </body>
+</html>
